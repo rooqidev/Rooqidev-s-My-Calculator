@@ -1,0 +1,85 @@
+/* Calculator Ui Designed Using Css*/
+/*@FarooqDev*/
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    .container {
+      height: 600px;
+      width: auto;
+      border: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .calculator {
+      height: 550px;
+      width: 90%;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0px 4px 9px #18191D;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(#1F1F1F, #7A7A7A);
+      
+    }
+    
+    .buttons {
+      width: 80%;
+      border: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .buttons-left {
+      display: grid;
+      grid-template-columns: repeat(3, 30px);
+      row-gap: 15px;
+      column-gap: 31px;
+    }
+    
+    .buttons-right {
+      display: grid;
+      grid-template-columns: repeat(1, 30px, );
+      gap: 15px;
+      margin-left: 20px;
+    }
+    
+    button {
+      margin: 5px;
+      height: 30px;
+      width: 50px;
+      border-radius: 10px;
+      border: none;
+      color: #8B8B8B;
+      background: linear-Gradient(#020202, #4B4B4B);
+      box-shadow: 0 3px 7px #000000;
+    }
+   
+    button:hover{
+      color: #919191;
+      background: linear-Gradient(#000000, #3F3F3F);
+    }
+    .resul-box{
+      padding-top: 43px;
+      padding-bottom: 43px;
+    }
+    
+    input {
+      padding: 15px 20px;
+      border-radius: 10px;
+      background: linear-Gradient(#000000, #2B2B2B);
+      border: none;
+      color: #8B8B8B;
+    }

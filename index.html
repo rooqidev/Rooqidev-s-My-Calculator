@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>My Calculator</title>
+  
+  <!-- HTML -->
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Main Container-->
+  <div class="container">
+  <!-- displaying Results-->
+    <div class="calculator">
+      <div class="input-screen">
+        <input type="text" name="Display" id="Display" readonly/>
+      </div>
+        <!-- Buttons sections-->
+      <div class="buttons">
+          <div class="buttons-left">
+            <!-- each button contains function name with method onclick = "submit()2"  
+            
+            means : Run this function when user click that button-->
+            <button onclick="submit('C')">C</button>
+            <button onclick="submit('/')">/</button>
+            <button onclick="submit('*')">*</button>
+            <button onclick="submit('7')">7</button>
+            <button onclick="submit('8')">8</button>
+            <button onclick="submit('9')">9</button>
+            <button onclick="submit('4')">4</button>
+            <button onclick="submit('5')">5</button>
+            <button onclick="submit('6')">6</button>
+            <button onclick="submit('1')">1</button>
+            <button onclick="submit('2')">2</button>
+            <button onclick="submit('3')">3</button>
+            <button onclick="submit('%')">%</button>
+            <button onclick="submit('0')">0</button>
+            <button onclick="submit('.')">.</button>
+            
+          </div>
+            <!-- right-side Buttons-->
+          <div class="buttons-right">
+            <button onclick="submit('©')">©</button>
+            <button onclick="submit('-')">-</button>
+            <button onclick="submit('+')">+</button>
+            <button class="resul-box" onclick="submit('=')">=</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
